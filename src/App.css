@@ -1,0 +1,94 @@
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container h1 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.form-group input[type="text"] {
+  flex: 1;
+  min-width: 150px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input[type="text"]:hover,
+.form-group input[type="text"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.form-group button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.form-group button:hover {
+  background-color: #0056b3;
+}
+
+.book-list {
+  list-style: none;
+  padding: 0;
+}
+
+.book-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  margin-bottom: 10px;
+  background: #fafafa;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.book-list li:hover {
+  background-color: #f1f1f1;
+  transform: translateY(-2px);
+}
+
+.book-list li span {
+  font-size: 16px;
+  color: #555;
+}
+
+.book-list li button {
+  padding: 8px 16px;
+  border: none;
+  background: #e74c3c;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.book-list li button:hover {
+  background: #c0392b;
+}
